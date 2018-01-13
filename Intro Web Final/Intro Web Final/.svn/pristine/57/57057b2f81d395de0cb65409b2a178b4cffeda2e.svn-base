@@ -1,0 +1,5 @@
+function newPicture() {
+    
+    
+}
+setInterval(newPicture, 1000);

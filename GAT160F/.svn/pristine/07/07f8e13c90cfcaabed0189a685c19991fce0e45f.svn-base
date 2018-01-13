@@ -1,0 +1,4 @@
+Camera 42
+ObjConverter.ReadFile "../Data/Objs/AIWorld.obj"
+ObjConverter.WriteFile "../Data/Scenes/AIWorld.scene"
+ObjConverter.VertexType 7

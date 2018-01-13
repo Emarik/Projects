@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" href="index.css" rel="stylesheet"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+    
+    </head>
+    <body>
+        <section>
+        <header>
+            <h1 id = "text"></h1>
+            <nav> 
+                <img id="logo" src="image/pyrolysis.png"></img>
+                <ul>
+                    <li id="spef" class="first"><a href="index.html">Home</a></li>
+                    <li id="bout"><a href="Specs.html">Specifications</a></li>
+                    <li id="bout"><a href="AboutUs.html">About Us</a></li>
+                    <li id="cont"><a href="ContactUs.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1>Pyrolysis</h1>
+        <p>The Next Generation Of Computer Technology!!</p>
+        <img id="slideshow" src="image/pyrolysis.png"></img>
+</section>
+    <footer>
+        <p><em>Copyright &#169;2015 Pyrolysis, Mark Benson, David Kebret, Travis Hilkey</em></p>
+    </footer>
+
+<script src="JavaScript/home.js"></script>
+
+    </body>
+    
+        
+
+    
+
+
+
+
+</html>

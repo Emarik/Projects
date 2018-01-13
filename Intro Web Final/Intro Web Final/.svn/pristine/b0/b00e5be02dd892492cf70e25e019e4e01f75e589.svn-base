@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" href="index.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img id="logo" src="image/pyrolysis.png"></img>
+                <ul>
+                    <li id="spef" class="first"><a href="index.html">Home</a></li>
+                    <li id="bout"><a href="Specs.html">Specifications</a></li>
+                    <li id="bout"><a href="AboutUs.html">About Us</a></li>
+                    <li id="cont"><a href="ContactUs.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <p><strong>The technology of the future! Bring your computer to the air!</strong></p>
+            <img src="image/topView.png" id="spefs"></img>
+            <canvas id="canvas"></canvas>
+    <div>
+            <h1>Smoke</h1>
+            <p>text</p>
+            <h1>Lasers</h1>
+            <p>text</p>
+            <h1>Interface</h1>
+            <p>text</p>
+            <h1>Possibilities</h1>
+            <p>text</p>
+            <p>text2</p>
+    </div>
+        </section>
+   
+    
+    
+    </body>
+</html>

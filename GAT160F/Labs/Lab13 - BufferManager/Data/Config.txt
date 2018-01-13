@@ -1,0 +1,4 @@
+Camera 42
+ObjConverter.ReadFile "../Data/Objs/Dargon.obj"
+ObjConverter.WriteFile "../Data/Scenes/Dargon.scene"
+ObjConverter.VertexType 3

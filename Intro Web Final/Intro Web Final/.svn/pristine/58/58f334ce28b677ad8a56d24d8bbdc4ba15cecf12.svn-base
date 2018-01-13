@@ -1,0 +1,53 @@
+var content = "   The latest advancement in holographic technology              ";
+var text = document.getElementById("text");
+text.style.color = "blue";
+text.style.fontWeight = "bold";
+
+var viewableContent;
+var placeholder = 0;
+var viewSize = 16;
+
+
+var counter = 0;
+function newPicture() {
+    if(counter<8){
+            counter++;
+        } else {
+            counter=1;   
+        }
+    switch(counter) {
+        case 1:
+    document.getElementById("slideshow").src="image/yodameeting.png";
+            break;
+        case 2:
+    document.getElementById("slideshow").src="image/chess.png";
+            break;
+        case 3:
+    document.getElementById("slideshow").src="image/city.png";
+            break;
+        case 4:
+    document.getElementById("slideshow").src="image/horse.png";
+            break;
+        case 5:
+    document.getElementById("slideshow").src="image/phone.png";
+            break;
+        case 6:
+    document.getElementById("slideshow").src="image/ship.png";
+            break;
+        case 7:
+    document.getElementById("slideshow").src="image/StarWarsHolo.png";
+            break;
+    }
+    
+}
+setInterval(newPicture, 1000);
+
+function tickerScroll(){
+    viewableContent = content.substr(placeholder, viewSize);
+    text.innerHTML = viewableContent;
+    placeholder++;
+    
+    if(placeholder > content.length - viewSize)
+        placeholder = 0;
+}
+setInterval(tickerScroll, 100);

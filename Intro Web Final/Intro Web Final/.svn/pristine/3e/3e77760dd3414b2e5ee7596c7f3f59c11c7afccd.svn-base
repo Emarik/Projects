@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <link type="text/css" href="index.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img id="logo" src="image/pyrolysis.png"></img>
+                <ul>
+                    <li id="spef" class="first"><a href="index.html">Home</a></li>
+                    <li id="bout"><a href="Specs.html">Specifications</a></li>
+                    <li id="bout"><a href="AboutUs.html">About Us</a></li>
+                    <li id="cont"><a href="ContactUs.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+    
+    </body>
+</html>

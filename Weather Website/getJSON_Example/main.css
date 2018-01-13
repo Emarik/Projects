@@ -1,0 +1,40 @@
+body {
+    background-image: url("Images/background.png");
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: ;
+}
+#wrap{
+       
+    margin: 2% 2% 2% 20%;
+}
+#title {
+    margin-left: 50%;
+    margin-right:50%;
+    color: white;
+}
+body div div {
+    display: inline-block;
+    border: 3px solid black;  
+    min-width: 150px;
+}
+body div div div {
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: white;
+    
+}
+img {
+    padding-left: 30%;
+    padding-right: auto;   
+}
+Iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid red;
+    width: 80%;
+    height: 700px;
+}

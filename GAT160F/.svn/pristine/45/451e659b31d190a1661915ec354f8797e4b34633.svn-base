@@ -1,0 +1,4 @@
+Camera 42
+ObjConverter.ReadFile "../Data/Objs/Pyramid.obj"
+ObjConverter.WriteFile "../Data/Scenes/Pyramid.scene"
+ObjConverter.VertexType 3

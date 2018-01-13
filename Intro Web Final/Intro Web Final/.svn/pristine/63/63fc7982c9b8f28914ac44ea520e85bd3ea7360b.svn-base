@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+        <script src="images/home.js"></script>
+        <link type="text/css" href="index.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <img id="logo"></img>
+        <header>
+            <nav>
+                <ul>
+                    <li id="spef"><a href="Specs.html">Specifications</a></li>
+                    <li id="bout"><a href="AboutUs.html">About Us</a></li>
+                    <li id="cont"><a href="ContactUs.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+    </body>
+    
+        <h1>Pyrogram</h1>
+        <img id="slideshow"></img>
+        <p></p>
+
+
+
+
+
+
+</html>

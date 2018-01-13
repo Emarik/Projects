@@ -1,0 +1,120 @@
+nav {
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    background-color: #837F7F;
+    text-align: left;
+    min-height: 200px;
+    
+}
+
+li{
+    background-color: #877963;
+}
+
+.hovered{
+    background-color: #144584;
+}
+
+.first {
+    margin-left: 5%;   
+}
+section {
+    align-content: center;   
+}
+.para {
+    color: #000;   
+}
+nav li {
+    display: inline-block;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+a {
+    text-decoration: none;   
+}
+header {
+    background-color: #877963;
+    text-align: center;
+    margin-top: 0px;
+    
+}
+#specs {
+    margin-left: 40%;   
+}
+body {
+    background-color: #141414;
+    min-width: 100%;
+    margin: 0px;
+}
+#canvas {
+    background-color: #96CEB4;
+    height: 302px;
+    width: 606px;
+    margin-left: 34%;
+    border : 1px solid red;
+}
+#logo {
+ float: left;   
+}
+#spefs {
+    margin-top: 20px;
+    margin-left: 34%; 
+}
+p {
+    text-align: center;
+    color: #FFF;
+}
+Iframe {
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid red;
+    width: 50%;
+    height: 500px; 
+}
+h1{
+    text-align: center;
+    color: #FFF;
+}
+h3 {
+   text-align: center;
+    color: #FFF;    
+}
+#slideshow {
+   margin-left: 34%;
+}
+#about {
+    max-width: 700px;   
+    text-align: center;
+    color: #FFF;
+    margin-left: 30%;
+}
+#text {
+    margin-top: 0px;   
+}
+footer {
+    position:absolute;
+  width: 100%;
+  height: 50px;
+  background-color: #877963;
+  text-align: center;
+    bottom: 0;
+}
+#feet {
+    position:relative;
+  width: 100%;
+  height: 50px;
+  background-color: #877963;
+  text-align: center;
+  padding-top: 10px;
+  clear: both;
+  z-index: 1000;
+}
+footer p {
+    color: #FFF;   
+    font-size: 12px;
+}

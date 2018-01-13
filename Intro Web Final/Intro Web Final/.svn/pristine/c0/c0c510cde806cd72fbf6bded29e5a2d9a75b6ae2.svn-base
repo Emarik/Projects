@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" href="index.css" rel="stylesheet"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+        
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img id="logo" src="image/pyrolysis.png"></img>
+                <ul>
+                    <li id="spef" class="first"><a href="index.html">Home</a></li>
+                    <li id="bout"><a href="Specs.html">Specifications</a></li>
+                    <li id="bout"><a href="AboutUs.html">About Us</a></li>
+                    <li id="cont"><a href="ContactUs.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div>
+            <p><strong>The technology of the future! Bring your computer to the air!</strong></p>
+            <img src="image/topView.png" id="spefs"></img>
+            <canvas id="canvas"></canvas>
+    
+    <div id = "specs">
+            <h1>Smoke</h1>
+            <section>
+            <p class="para">text</p>
+            </section>
+            <h1>Lasers</h1>
+            <section>
+            <p class="para">text</p>
+            </section>
+            <h1>Interface</h1>
+            <section>
+            <p class="para">text</p>
+            </section>
+            <h1>Possibilities</h1>
+            <section>   
+            <p class="para">text</p>
+            </section>
+    </div>
+        </div>
+    <footer>
+        <p><em>Copyright &#169;2015 Pyrolysis, Mark Benson, David Kebret, Travis Hilkey</em></p>
+    </footer>
+    <script src="JavaScript/home.js"></script>
+    </body>
+</html>

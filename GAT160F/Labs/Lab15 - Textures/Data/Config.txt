@@ -1,0 +1,4 @@
+Camera 42
+ObjConverter.ReadFile "../Data/Objs/SpecialCube.obj"
+ObjConverter.WriteFile "../Data/Scenes/SpecialCube.scene"
+ObjConverter.VertexType 15
